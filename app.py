@@ -1,3 +1,4 @@
+#skav-tech
 import streamlit as st
 import requests
 import webbrowser
@@ -67,7 +68,7 @@ def main():
     st.header("SKAV AI Chatbot")
     question = st.text_input("Ask the model a question:")
     if st.button("Ask SKAV AI"):
-        # Call your AI model and get the response
+        # Call your AI model and get the responsepip
         response = model.generate_content(question)
         st.text("SKAV AI Response:")
         st.write(response.text)
