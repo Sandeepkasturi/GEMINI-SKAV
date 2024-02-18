@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import webbrowser
-import pyautogui
+#import pyautogui
 from google.generativeai import configure, GenerativeModel
 from IPython.display import Markdown
 import textwrap
